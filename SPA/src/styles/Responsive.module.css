@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+  .albumDetail {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .albumDetail h1 {
+    font-size: 1.4em;
+  }
+
+  .photosGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .albumsList {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .albumsList h1 {
+    font-size: 1.6em;
+  }
+
+  .app {
+    padding: 10px;
+    align-items: stretch;
+  }
+
+  nav {
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+
+  .home h1 {
+    font-size: 1.8em;
+  }
+
+  .notFound h1 {
+    font-size: 1.8em;
+  }
+
+  .userDetail {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .userInfo {
+    padding: 15px;
+  }
+
+  .userInfo h2 {
+    font-size: 1.4em;
+  }
+
+  .usersList {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .usersList h1 {
+    font-size: 1.6em;
+  }
+}
+
+@media (max-width: 480px) {
+  .photosGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .albumDetail h1,
+  .albumsList h1,
+  .usersList h1,
+  .home h1,
+  .notFound h1 {
+    font-size: 1.4em;
+  }
+}
