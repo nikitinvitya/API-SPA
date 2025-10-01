@@ -1,0 +1,18 @@
+.container {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container img {
+    width: 30px;
+}
+
+.albumLink {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

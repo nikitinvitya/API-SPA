@@ -1,0 +1,17 @@
+.usersList {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.userLink {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.userLink img {
+    width: 100px;
+}
